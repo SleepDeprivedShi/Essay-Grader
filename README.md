@@ -26,13 +26,13 @@ An AI-powered essay grading system that evaluates written content using natural 
 ---
 
 ## Project Structure
-
+```
 Essay-Grader/
 ├── aes_backend.py       # Essay processing, NLP & scoring logic
 ├── aes_frontend.py      # PyQt6 GUI interface
 ├── requirements.txt     # Dependencies
 └── README.md
-
+```
 ---
 
 ## How It Works
@@ -50,42 +50,42 @@ Essay-Grader/
 ## Dependencies
 
 ### Python Libraries
-
+```
 - language-tool-python==2.8  
 - numpy==2.2.3  
 - PyQt6==6.8.1  
 - scikit-learn==1.6.1  
 - spacy==3.7.5  
-
+```
 Install all dependencies using:
-
+```
 pip install -r requirements.txt
-
+```
 ---
 
 ## How to Run
 
 1. Clone the repository:
-
+```
 git clone https://github.com/your-username/Essay-Grader.git
 cd Essay-Grader
-
+```
 2. Install dependencies:
-
+```
 pip install -r requirements.txt
-
+```
 3. Run the application:
-
+```
 python aes_frontend.py
-
+```
 ---
 
 ## Notes
 
 - Ensure spaCy language model is installed before running:
-
+```
 python -m spacy download en_core_web_sm
-
+```
 - The scoring logic is implemented in aes_backend.py  
 - You can tweak feature extraction or improve model accuracy inside the backend  
 
