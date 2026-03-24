@@ -100,7 +100,3 @@ python -m spacy download en_core_web_sm
 - Deploy as a web app (Flask / FastAPI)  
 
 ---
-
-## Author
-
-Developed by Shivansh (SleepDeprivedShi)
